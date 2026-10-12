@@ -1,0 +1,29 @@
+# Template: copy into .github/workflows/nano-zon.yml when this project is a repo.
+# For a nested training checkout, set working-directory to that project's path.
+name: Nano-Zon checks
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: python -m pip install -e ".[dev]"
+      - name: Require completed lab answers
+        run: python tools/progress.py --require-complete
+      # ANSWER m09 ci_command BEGIN
+      - name: Run tests and branch coverage
+        run: >-
+          python -m pytest --cov=nanozon --cov-branch
+          --cov-report=term-missing --cov-report=xml:reports/coverage.xml
+          --junitxml=reports/tests.xml
+      # ANSWER m09 ci_command END
+      - name: Keep reports even after failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nano-zon-reports
+          path: reports/

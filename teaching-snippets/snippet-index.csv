@@ -1,0 +1,40 @@
+module,file,principle,mode,physical_lines
+m01,s01_values.py,Values represent information,python,24
+m01,s02_expressions.py,Expressions transform values,python,22
+m01,s03_decisions.py,Conditions select behavior,python,27
+m01,s04_functions.py,Functions name reusable operations,python,25
+m01,s05_execution_and_errors.py,Execution follows a traceable path,python,23
+m02,s01_collections.py,Choose a structure for the information,python,24
+m02,s02_iteration.py,Repeat an operation over data,python,33
+m02,s03_function_interfaces.py,Make function interfaces clear,python,29
+m02,s04_mutable_state.py,Understand ownership of changing data,python,31
+m02,s05_input_and_exceptions.py,Handle exceptional and missing inputs deliberately,python,31
+m03,s01_records.py,Give related data a named shape,python,29
+m03,s02_objects.py,Give state an owner,python,29
+m03,s03_composition_and_snapshots.py,Compose objects and preserve boundaries,python,35
+m03,s04_modules.py,Divide a program by responsibility,python,26
+m04,s01_json.py,Encode information for exchange,python,24
+m04,s02_catalog_api.py,Publish an interface,api,28
+m04,s03_order_api.py,Translate requests into application operations,api,38
+m04,s04_http_client.py,Call an interface and interpret its outcome,python,33
+m05,s01_contracts.py,Declare acceptable data,python,30
+m05,s02_ambiguity.py,Make ambiguity explicit,python,31
+m05,s03_validation_and_rules.py,Separate structural validity from business validity,api,29
+m05,s04_external_records.py,Read and validate external records,python,23
+m05,s05_workflows.py,Compose operations into a workflow,python,37
+m06,s01_persistent_resources.py,Manage persistent resources,python,30
+m06,s02_storage_records.py,Translate storage representations,python,24
+m06,s03_relationships.py,Preserve relationships and historical facts,python,29
+m06,s04_transactions.py,Treat related changes as one operation,python,29
+m07,s01_assertions.py,State an observable expectation,pytest,23
+m07,s02_boundaries.py,Examine boundaries and rejected operations,pytest,31
+m07,s03_parametrization.py,Express a family of cases,pytest,27
+m07,s04_isolation_and_regression.py,Isolate state and retain discovered defects,pytest,28
+m08,s01_component_boundaries.py,Test across a component boundary,pytest,31
+m08,s02_isolated_integration.py,Control the environment,pytest,33
+m08,s03_failure_consequences.py,Check the consequences of failure,pytest,28
+m08,s04_external_dependencies.py,Substitute an external dependency deliberately,pytest,35
+m09,s01_coverage_paths.py,Find unexplored execution paths,pytest,19
+m09,s02_assertion_quality.py,Check whether assertions detect wrong behavior,pytest,28
+m09,s03_repeatable_checks.py,Make checks reproducible,python,30
+m09,s04_ci.yml,Automate feedback on changes,yaml,27

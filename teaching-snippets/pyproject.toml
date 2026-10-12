@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-teaching-snippets"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.110,<1", "uvicorn>=0.27,<1",
+    "pydantic>=2.6,<3", "requests>=2.31,<3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9", "pytest-cov>=4.1,<7", "httpx>=0.27,<1"]
+
+[tool.setuptools.packages.find]
+include = ["m01*", "m02*", "m03*", "m04*", "m05*", "m06*", "m07*", "m08*", "m09*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["m07", "m08", "m09"]
+python_files = ["s*.py"]
+addopts = "-ra --strict-markers"
+
+[tool.coverage.run]
+omit = ["*/conftest.py", "*/server.py"]

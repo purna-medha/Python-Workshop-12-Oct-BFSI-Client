@@ -1,0 +1,27 @@
+# Shared automation repeats the same checks when software changes.
+# Reuse the local command, fail when it fails, and retain reports for diagnosis.
+# This is a teaching template, not an installed workflow.
+# Copy to the repository's .github/workflows/python-teaching.yml to activate.
+name: Python teaching checks
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: current-course/teaching-snippets
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install the declared dependencies
+        run: python -m pip install -e ".[dev]"
+      - name: Run the same checks as local development
+        run: python -m m09.s03_repeatable_checks
+      - name: Retain reports even if a check failed
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: python-check-reports
+          path: current-course/teaching-snippets/reports/

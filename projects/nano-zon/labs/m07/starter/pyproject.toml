@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nano-zon"
+version = "0.1.0"
+description = "A small Python training capstone with M1–M9 checkpoints"
+requires-python = ">=3.10"
+dependencies = ["fastapi>=0.110,<1", "uvicorn>=0.27,<1",
+                "pydantic>=2.6,<3", "requests>=2.31,<3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9", "pytest-cov>=4.1,<7", "httpx>=0.27,<1"]
+
+[tool.setuptools.packages.find]
+include = ["nanozon*"]
+
+[tool.setuptools.package-data]
+nanozon = ["schema.sql"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra --strict-markers"
+
+[tool.coverage.run]
+source = ["nanozon"]
+# ANSWER m09 branch_coverage BEGIN
+branch = true
+# ANSWER m09 branch_coverage END
+omit = ["nanozon/server.py", "nanozon/call_api.py"]
+
+[tool.coverage.report]
+show_missing = true
