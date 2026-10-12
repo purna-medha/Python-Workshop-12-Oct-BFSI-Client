@@ -11,7 +11,7 @@ def test_two_cables_cost_99800_paise():
     assert calculate_line_total(49900, 2) == 99800
 
 
-# Run from current-course/teaching-snippets:
+# Run from teaching-snippets:
 # uv run --extra dev pytest m09/s01_coverage_paths.py \
 #   --cov=m09.pricing --cov-branch --cov-report=term-missing
 # The rejected-quantity path remains uncovered; try zero, negative, and Boolean.

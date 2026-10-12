@@ -12,7 +12,7 @@ Read the numbered snippets in order. Every snippet is at most 40 physical lines.
 | [s04_functions.py](s04_functions.py) | Functions name reusable operations | `python -m m01.s04_functions` |
 | [s05_execution_and_errors.py](s05_execution_and_errors.py) | Execution follows a traceable path | `python -m m01.s05_execution_and_errors` |
 
-Run commands from the `current-course/teaching-snippets` folder. See the [course index](../README.md) for setup and API prerequisites.
+Run commands from the `teaching-snippets` folder. See the [course index](../README.md) for setup and API prerequisites.
 
 ## Prediction and demonstration
 

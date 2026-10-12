@@ -1,7 +1,5 @@
 # M1–M9 classroom materials
 
-[Word slide manuscript for PowerPoint production](../exports/python-training-m01-m09-slide-manuscript.docx) — all 298 slides, grouped by module, with numbered slide headings and complete text/code. Each slide starts on a new Word page. Content and package structure were checked; visual rendering remains pending because the local renderer dependencies and LibreOffice are unavailable.
-
 Nine Markdown slide decks and nine companion codealong notebooks for the current course. Each deck has 30–40 slides; tiny slide excerpts isolate one mechanism. Each notebook has 12 directly executable teaching cells across two explorations, using Pico-Zon-derived examples. Nano-Zon remains the lab project.
 
 | Module | Slides | Codealong | Slide count |
@@ -18,8 +16,6 @@ Nine Markdown slide decks and nine companion codealong notebooks for the current
 
 ## Teaching rhythm
 
-The [LOD 1 / LOD 2 slide map](../curriculum/slide-map-m01-m09.md) makes each deck’s sections and teaching intentions visible for review and revision.
-
 Each deck establishes a general principle, connects it to the shop, shows small Python, asks a prediction before a separate answer, then moves through codealong and guided/independent Nano-Zon practice. Experienced learners deepen the same context through ownership, contract, or evidence review. The outline still allocates two hours per module; slides are prompts for interaction rather than a fixed equal-time lecture.
 
 ## Slides
@@ -28,7 +24,7 @@ The files are Markdown with Marp front matter, `---` slide boundaries, and a 16:
 
 ## Codealongs
 
-Use a notebook editor with a Python kernel. M1–M3 and M6 use the standard library. For framework and testing lessons, from `current-course/teaching-snippets/` run `uv sync --extra dev` and select that environment in your editor. Notebook tooling is a separate classroom prerequisite. The teaching cells are self-contained: there is no repository discovery, sys.path modification, runpy wrapper, or dependency on local course modules. Restart and run in order to reproduce starting state.
+Use a notebook editor with a Python kernel. M1–M3 and M6 use the standard library. For framework and testing lessons, from `teaching-snippets/` run `uv sync --extra dev` and select that environment in your editor. Notebook tooling is a separate classroom prerequisite. The teaching cells are self-contained: there is no repository discovery, sys.path modification, runpy wrapper, or dependency on local course modules. Restart and run in order to reproduce starting state.
 
 Read a brief principle, predict, execute the visible code, inspect the result, and change one input. Most cells are small; a few supplied schema, response-contract, and test-file cells are longer so the example remains complete. The notebook text identifies what each result establishes and where a simplification matters. Expected explanations are separately revealable, and deliberate failures have a nearby recovery.
 

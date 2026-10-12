@@ -46,7 +46,7 @@ The CLI and API can reuse the same rules while having separate process memory.
 
 The standard library ships with Python; FastAPI and requests are third-party packages.
 
-From `current-course/teaching-snippets/`:
+From `teaching-snippets/`:
 
 ```sh
 uv sync --extra dev

@@ -48,7 +48,7 @@ Products match Pico-Zon: USB-C Cable ₹499, Mechanical Keyboard ₹5,499, Steel
 ## Start with a lab
 
 ```sh
-cd current-course/projects/nano-zon/labs/m01/starter
+cd projects/nano-zon/labs/m01/starter
 python3 shop.py
 python3 tools/progress.py
 ```
@@ -60,7 +60,7 @@ Each parent lab guide also includes an independent extension with no supplied an
 ## Run the complete application
 
 ```sh
-cd current-course/projects/nano-zon/reference
+cd projects/nano-zon/reference
 python3 -m nanozon.cli
 ```
 

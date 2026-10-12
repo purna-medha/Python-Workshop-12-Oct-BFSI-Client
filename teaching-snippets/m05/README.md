@@ -12,7 +12,7 @@ Read the numbered snippets in order. Every snippet is at most 40 physical lines.
 | [s04_external_records.py](s04_external_records.py) | Read and validate external records | `uv run --extra dev python -m m05.s04_external_records` |
 | [s05_workflows.py](s05_workflows.py) | Compose operations into a workflow | `uv run --extra dev python -m m05.s05_workflows` |
 
-Run commands from the `current-course/teaching-snippets` folder. See the [course index](../README.md) for setup and API prerequisites.
+Run commands from the `teaching-snippets` folder. See the [course index](../README.md) for setup and API prerequisites.
 
 Before snippet 05, start snippet 03 in another terminal. It writes `order-report.json` in this folder. CSV rows produce independent one-item orders.
 

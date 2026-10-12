@@ -9,7 +9,7 @@ This is the instructor's modular showcase. [Nano-Zon](../../nano-zon/README.md) 
 From the training folder:
 
 ```sh
-cd current-course/projects/pico-zon/modular
+cd projects/pico-zon/modular
 python3 -m pico_zon
 ```
 

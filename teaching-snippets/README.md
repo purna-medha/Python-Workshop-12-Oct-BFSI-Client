@@ -25,7 +25,7 @@ Each snippet begins with a short conceptual paragraph, connects it to the exampl
 Open a terminal in this folder. Use Python 3.10 or later; Python 3.12 is the CI example. Run snippets as modules so companion imports resolve:
 
 ```sh
-cd current-course/teaching-snippets
+cd teaching-snippets
 python3 -m m01.s01_values
 python3 -m m03.s04_modules
 ```
@@ -79,7 +79,7 @@ Read the opening principle, connect it to the example, predict the result, and r
 
 The numbered files are the teaching sequence. Small companion files provide reusable definitions, schemas, fixtures, and sample data; their Python files also stay within 40 lines. Introduce each companion at the module that owns it.
 
-The original [50-line Pico-Zon](../projects/pico-zon/pico_zon.py) remains the opening whole-application demo. These teaching snippets are purpose-built examples; [Nano-Zon](../curriculum/application-design.md) remains the separate learner lab project.
+The original [50-line Pico-Zon](../projects/pico-zon/pico_zon.py) remains the opening whole-application demo. These teaching snippets are purpose-built examples; Nano-Zon remains the separate learner lab project.
 
 This folder contains teaching code and minimal navigation instructions, rather than slides or Nano-Zon lab solutions.
 

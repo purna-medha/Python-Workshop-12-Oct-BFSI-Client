@@ -34,7 +34,7 @@ Today’s examples isolate one mechanism; the application reconnects it to the w
 Run the supplied 50-line Pico-Zon: browse, add cable twice, add bottle, checkout.
 
 ```sh
-python3 current-course/projects/pico-zon/pico_zon.py
+python3 projects/pico-zon/pico_zon.py
 ```
 
 Predict the receipt: ₹1,897.00. Lists and loops are a preview; today we explain values and functions.

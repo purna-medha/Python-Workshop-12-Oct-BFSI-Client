@@ -16,13 +16,13 @@ Both terminal shops use the same products, commands, receipt amounts, and repeat
 From the training folder:
 
 ```sh
-python3 current-course/projects/pico-zon/pico_zon.py
+python3 projects/pico-zon/pico_zon.py
 ```
 
 ### Modular version
 
 ```sh
-cd current-course/projects/pico-zon/modular
+cd projects/pico-zon/modular
 python3 -m pico_zon
 ```
 
@@ -42,4 +42,4 @@ The three products come from the existing capstone catalog: USB-C Cable (₹499)
 
 Each shopper starts with a fresh cart in `main`. Repeated items appear as separate receipt lines. Fixed prices and in-memory state keep the opening example small. M3 can revisit this same journey through modular Pico-Zon's records, cart owner, reusable checkout, and CLI. Its later API and SQLite layers provide an instructor showcase; Nano-Zon supplies the richer incremental labs.
 
-See the [application design](../../curriculum/application-design.md) and [M1–M9 outline](../../curriculum/outline-m01-m09.md).
+See the application design and M1–M9 outline.

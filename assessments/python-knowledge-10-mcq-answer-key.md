@@ -4,7 +4,7 @@ Use with the [student assessment](python-knowledge-10-mcq.md). Do not distribute
 
 ## Selection and scoring
 
-These ten questions are adapted from the [legacy final assessment](../../legacy-course/assessment/final-assessment.md), specifically legacy Q1, Q2, Q4, Q5, Q6, Q10, Q11, Q12, Q13, and Q15. Their short examples and mechanism/application/judgment style are retained. Banking examples become shop examples, legacy module tags become current-course tags, and constraints and outcome names match the current course.
+These ten questions are adapted from the legacy final assessment, specifically legacy Q1, Q2, Q4, Q5, Q6, Q10, Q11, Q12, Q13, and Q15. Their short examples and mechanism/application/judgment style are retained. Banking examples become shop examples, legacy module tags become current-course tags, and constraints and outcome names match the current course.
 
 Q1 asks for the cause of shared state rather than simply the printed output. Q9 explicitly includes temporary SQLite storage to match the current integration lesson. The original legacy question IDs are retained below for traceability.
 

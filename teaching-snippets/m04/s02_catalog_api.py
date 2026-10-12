@@ -23,6 +23,6 @@ def get_product(product_id: str) -> Product:
     return PRODUCTS[product_id]
 
 
-# From current-course/teaching-snippets: uv run uvicorn m04.s02_catalog_api:app --port 8000
+# From teaching-snippets: uv run uvicorn m04.s02_catalog_api:app --port 8000
 # Open http://127.0.0.1:8000/docs; try /products?query=cable and /products/999.
 # Route decorators register handlers. FastAPI already uses Pydantic internally.

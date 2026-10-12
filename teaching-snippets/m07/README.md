@@ -11,7 +11,7 @@ Read the numbered snippets in order. Every snippet is at most 40 physical lines.
 | [s03_parametrization.py](s03_parametrization.py) | Express a family of cases | `uv run --extra dev pytest m07/s03_parametrization.py -q` |
 | [s04_isolation_and_regression.py](s04_isolation_and_regression.py) | Isolate state and retain discovered defects | `uv run --extra dev pytest m07/s04_isolation_and_regression.py -q` |
 
-Run commands from the `current-course/teaching-snippets` folder. See the [course index](../README.md) for setup and API prerequisites.
+Run commands from the `teaching-snippets` folder. See the [course index](../README.md) for setup and API prerequisites.
 
 `conftest.py` provides the fresh cart fixture. These files are examples of pytest tests; launching them as ordinary scripts does not execute their tests.
 

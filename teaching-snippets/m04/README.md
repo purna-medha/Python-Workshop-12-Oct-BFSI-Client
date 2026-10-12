@@ -11,7 +11,7 @@ Read the numbered snippets in order. Every snippet is at most 40 physical lines.
 | [s03_order_api.py](s03_order_api.py) | Translate requests into application operations | `uv run uvicorn m04.s03_order_api:app --port 8000` |
 | [s04_http_client.py](s04_http_client.py) | Call an interface and interpret its outcome | `uv run --extra dev python -m m04.s04_http_client` |
 
-Run commands from the `current-course/teaching-snippets` folder. See the [course index](../README.md) for setup and API prerequisites.
+Run commands from the `teaching-snippets` folder. See the [course index](../README.md) for setup and API prerequisites.
 
 ## Prediction and demonstration
 

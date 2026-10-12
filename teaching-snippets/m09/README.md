@@ -11,7 +11,7 @@ Read the numbered snippets in order. Every snippet is at most 40 physical lines.
 | [s03_repeatable_checks.py](s03_repeatable_checks.py) | Make checks reproducible | `uv run --extra dev python -m m09.s03_repeatable_checks` |
 | [s04_ci.yml](s04_ci.yml) | Automate feedback on changes | `Read the annotated workflow template` |
 
-Run commands from the `current-course/teaching-snippets` folder. See the [course index](../README.md) for setup and API prerequisites.
+Run commands from the `teaching-snippets` folder. See the [course index](../README.md) for setup and API prerequisites.
 
 The pricing companion gives coverage a separate target. Snippet 02 deliberately includes one weak assertion beside the stronger tests.
 

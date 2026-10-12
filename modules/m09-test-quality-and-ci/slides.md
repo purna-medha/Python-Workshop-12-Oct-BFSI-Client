@@ -318,7 +318,7 @@ Project metadata is part of the runnable contract.
   run: python -m m09.s03_repeatable_checks
 ```
 
-Teaching-snippets template excerpt. Keep its working directory set to `current-course/teaching-snippets`.
+Teaching-snippets template excerpt. Keep its working directory set to `teaching-snippets`.
 
 ---
 
@@ -331,7 +331,7 @@ Failed checks are often when the reports are most valuable.
   if: always()
   with:
     name: python-check-reports
-    path: current-course/teaching-snippets/reports/
+    path: teaching-snippets/reports/
 ```
 
 Excerpt from the template; paths are relative to the repository checkout for this action.

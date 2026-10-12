@@ -22,5 +22,5 @@ def main():
 if __name__ == "__main__":
     main()
 
-# Launch from current-course/teaching-snippets: python -m m03.s04_modules
+# Launch from teaching-snippets: python -m m03.s04_modules
 # A class owns state; a stateless calculation can remain an ordinary function.

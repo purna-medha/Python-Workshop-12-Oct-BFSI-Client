@@ -6,7 +6,7 @@
 
 **Stack:** Python 3.10+, standard-library dataclasses/JSON/CSV/SQLite, FastAPI, Pydantic 2, requests, pytest and coverage.
 
-**Spec:** [Application design](../../curriculum/application-design.md), [module outline](../../curriculum/outline-m01-m09.md), and the current request to supply function bodies with participant answers commented out.
+**Spec:** Application design, module outline, and the current request to supply function bodies with participant answers commented out.
 
 ## Constraints
 

@@ -12,7 +12,7 @@ Read the numbered snippets in order. Every snippet is at most 40 physical lines.
 | [s04_mutable_state.py](s04_mutable_state.py) | Understand ownership of changing data | `python -m m02.s04_mutable_state` |
 | [s05_input_and_exceptions.py](s05_input_and_exceptions.py) | Handle exceptional and missing inputs deliberately | `python -m m02.s05_input_and_exceptions` |
 
-Run commands from the `current-course/teaching-snippets` folder. See the [course index](../README.md) for setup and API prerequisites.
+Run commands from the `teaching-snippets` folder. See the [course index](../README.md) for setup and API prerequisites.
 
 ## Prediction and demonstration
 

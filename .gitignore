@@ -1,0 +1,25 @@
+curriculum/
+exports/
+teaching-text/
+
+# Local environments, generated caches, and runtime data
+.DS_Store
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.coverage
+.coverage.*
+htmlcov/
+reports/
+*.sqlite
+*.sqlite3
+*.db
+*.sqlite-wal
+*.sqlite-shm
+.env
+.env.*
+!.env.example
+!.env.sample

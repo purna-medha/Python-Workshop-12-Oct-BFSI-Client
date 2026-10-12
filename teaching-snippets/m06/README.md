@@ -11,7 +11,7 @@ Read the numbered snippets in order. Every snippet is at most 40 physical lines.
 | [s03_relationships.py](s03_relationships.py) | Preserve relationships and historical facts | `python -m m06.s03_relationships` |
 | [s04_transactions.py](s04_transactions.py) | Treat related changes as one operation | `python -m m06.s04_transactions` |
 
-Run commands from the `current-course/teaching-snippets` folder. See the [course index](../README.md) for setup and API prerequisites.
+Run commands from the `teaching-snippets` folder. See the [course index](../README.md) for setup and API prerequisites.
 
 The numbered demonstrations use disposable databases. `schema.sql` and the small storage companions supply the shared structure.
 

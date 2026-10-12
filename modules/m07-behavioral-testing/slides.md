@@ -48,7 +48,7 @@ The expected amount is computed from the requirement, not another call to the sa
 
 Pytest finds test functions in matching files and executes them.
 
-From `current-course/teaching-snippets/`:
+From `teaching-snippets/`:
 
 ```sh
 uv sync --extra dev

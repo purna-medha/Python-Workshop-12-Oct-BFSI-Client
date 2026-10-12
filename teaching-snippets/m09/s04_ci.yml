@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: current-course/teaching-snippets
+        working-directory: teaching-snippets
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -24,4 +24,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: python-check-reports
-          path: current-course/teaching-snippets/reports/
+          path: teaching-snippets/reports/

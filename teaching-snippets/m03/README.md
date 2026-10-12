@@ -11,7 +11,7 @@ Read the numbered snippets in order. Every snippet is at most 40 physical lines.
 | [s03_composition_and_snapshots.py](s03_composition_and_snapshots.py) | Compose objects and preserve boundaries | `python -m m03.s03_composition_and_snapshots` |
 | [s04_modules.py](s04_modules.py) | Divide a program by responsibility | `python -m m03.s04_modules` |
 
-Run commands from the `current-course/teaching-snippets` folder. See the [course index](../README.md) for setup and API prerequisites.
+Run commands from the `teaching-snippets` folder. See the [course index](../README.md) for setup and API prerequisites.
 
 Snippet 04 uses small companion files: `catalog.py`, `records.py`, `shop.py`, `cart.py`, and `cli.py`. Each is at most 40 lines.
 
